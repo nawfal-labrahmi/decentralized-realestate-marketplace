@@ -1,0 +1,24 @@
+{
+  "name": "decentralized-realestate-marketplace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nawfal Labrahmi",
+  "devDependencies": {
+    "lite-server": "2.4.0",
+    "truffle-assertions": "^0.9.2"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.12",
+    "openzeppelin-solidity": "2.2.0",
+    "solc": "0.5.12",
+    "solc-js": "0.5.5",
+    "truffle": "^5.0.1",
+    "web3": "^1.7.4"
+  }
+}
