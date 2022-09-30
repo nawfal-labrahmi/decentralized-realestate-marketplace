@@ -13,13 +13,22 @@ module.exports = {
       network_id: "*",       // Any network (default: none)
     },
 
+    // Deprecated since the Ethereum merge - not supported by OpenSea Testnet anymore
     rinkeby: {
       provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${infuraKey}`),
       network_id: 4,
       from: "0x49BF997b25e9C37Fd35D496ef9Cd0a31559E4f1a",
       gas: 4500000,
       gasPrice: 10000000000
-    }
+    },
+
+    goerli: {
+      provider: () => new HDWalletProvider(mnemonic, `https://goerli.infura.io/v3/${infuraKey}`),
+      network_id: 5,
+      from: "0x49BF997b25e9C37Fd35D496ef9Cd0a31559E4f1a",
+      gas: 4500000,
+      gasPrice: 10000000000
+    },
   },
 
   // Set default mocha options here, use special reporters etc.
