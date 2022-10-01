@@ -38,9 +38,8 @@ Since the Ethereum merge, OpenSea does not support the Rinkeby testnet anymore, 
 * Verifier.sol Contract address: `0x25956f2ceC7dc71160Df0AF121657EcFF52cd387`
 * SolnSquareVerifier.sol Contract address: `0x57C0ADDc3273cd3C15F87f443486E2A17268aa5E`
 * Contract owner account: `0x49BF997b25e9C37Fd35D496ef9Cd0a31559E4f1a`
-* Beneficiary account of the minted token: `0x7eaBeBE6eF06084a96C37E98d57bA4a5C297F9Fd`
-* Token minting TxHash: https://goerli.etherscan.io/tx/0xbe05ab56e8941b4e1042c85bc6b19ea6f3a76a64d56691201aa1ccd984981ca0
-* Minted token on OpenSea (on OpenSea Testnets): https://testnets.opensea.io/fr/assets/goerli/0x57c0addc3273cd3c15f87f443486e2a17268aa5e/17 
+* NFT collection on OpenSea: https://testnets.opensea.io/collection/mycustomtoken-v3/
+* NFT activity on OpenSea: 10 tokens were minted, 5 of them were listed for sale and were bought by a different account: https://testnets.opensea.io/collection/mycustomtoken-v3/activity
 
 # Project Resources
 
